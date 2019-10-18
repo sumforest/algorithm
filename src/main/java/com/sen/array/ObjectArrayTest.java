@@ -14,6 +14,7 @@ public class ObjectArrayTest {
         objectArray.add(3);
         objectArray.add(4);
         objectArray.add(5);
+        /*
         System.out.println(objectArray.Size());
         objectArray.show();
         //删除指定下标的元素
@@ -26,5 +27,8 @@ public class ObjectArrayTest {
         //替换指定位置的元素
         objectArray.set(0, 111);
         objectArray.show();
+        */
+        // System.out.println(objectArray.search(10));
+        System.out.println(objectArray.BinarySearch(10));
     }
 }

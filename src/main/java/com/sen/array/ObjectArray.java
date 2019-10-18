@@ -120,4 +120,56 @@ public class ObjectArray {
         array[index] = object;
         return array;
     }
+
+    /**
+     * 线性查找元素的下标
+     * @param target
+     * @return
+     */
+    public int search(Object target) {
+        int index = -1;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == target) {
+                index = i;
+                break;
+            }
+        }
+        return index;
+    }
+
+    /**
+     * 二分法查找
+     * @param target 目标元素
+     * @return 返回下标为-1表示没有找到
+     */
+    public int BinarySearch(int target) {
+        //定义开始位置
+        int begin = 0;
+        //定义结束位置
+        int end = array.length - 1;
+        //定义中间位置
+        int mid = (begin + end) / 2;
+        //定义目标元素的下标
+        int index = -1;
+        while (true) {
+            //如果中间元素等于目标元素
+            int temp = (int) array[mid];
+            if (temp == target) {
+                index = mid;
+                break;
+            } else {
+                //中间元素小于目标元素
+                if (temp < target) {
+                    begin = mid + 1;
+                } else {
+                    end = mid - 1;
+                }
+                mid = (begin + end) / 2;
+            }
+            if (begin >= end) {
+                break;
+            }
+        }
+      return index;
+    }
 }
