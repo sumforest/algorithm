@@ -44,6 +44,13 @@ public class QueueDemo {
     }
 
     /**
+     * 判断队列是否为空
+     * @return
+     */
+    public boolean isEmpty() {
+        return elements.length == 0;
+    }
+    /**
      * 获取队列的大小
      * @return
      */
