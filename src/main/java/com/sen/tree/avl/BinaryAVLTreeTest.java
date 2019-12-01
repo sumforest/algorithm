@@ -1,5 +1,7 @@
 package com.sen.tree.avl;
 
+import java.util.LinkedList;
+
 /**
  * @Auther: Sen
  * @Date: 2019/10/21 00:29
@@ -18,5 +20,9 @@ public class BinaryAVLTreeTest {
         System.out.println(bst.getRootNode().getHight());
         System.out.println(bst.getRootNode().getValue());
 
+        LinkedList<Object> objects = new LinkedList<>();
+        objects.size();
+
     }
+
 }
