@@ -42,7 +42,7 @@ public class RadixSort {
             }
             //定义arr的下标
             int index = 0;
-            //把每个元素按照0-9的顺序和放进去的顺序取出
+            //把每个元素按照0-9的顺序取出
             for (int k = 0; k < count.length; k++) {
                 //当记录存放数据的数据部位0，遍历count[]
                 if (count[k] != 0) {
