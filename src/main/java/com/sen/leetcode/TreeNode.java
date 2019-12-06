@@ -1,0 +1,16 @@
+package com.sen.leetcode;
+
+/**
+ * @Auther: Sen
+ * @Date: 2019/12/6 01:51
+ * @Description:
+ */
+public class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+}

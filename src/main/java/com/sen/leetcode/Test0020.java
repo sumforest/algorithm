@@ -15,8 +15,16 @@ public class Test0020 {
         isValid("()");
         Stack<Character> stack = new Stack<>();
         Map<Character,Character> map = new HashMap<>();
-        map.containsKey("(");
-        stack.pop();
+        // map.containsKey("(");
+        // stack.pop();
+        String str = "hello";
+        // str.charAt()
+        str.length();
+        System.out.println(str.indexOf("ll"));
+        char[] chs = {'a', 'b'};
+        String s = chs.toString();
+        s.substring(0, 2);
+        s.length();
     }
     public static boolean isValid(String s) {
         char[] chars = s.toCharArray();

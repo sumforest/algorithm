@@ -9,6 +9,7 @@ public class Test0190 {
 
     public static void main(String[] args) {
         System.out.println(reverseBits1(43261596));
+        int x;
     }
     public static int reverseBits1(int n) {
         int result = 0;
