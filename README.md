@@ -1,2 +1,2 @@
 # algorithm
-算法结构Java版
+算法结构基础
